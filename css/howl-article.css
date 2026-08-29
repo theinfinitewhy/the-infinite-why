@@ -1,0 +1,111 @@
+/* ==========================================================
+   THE DISTANCE A HOWL CAN TRAVEL
+   Article-specific additions only.
+
+   Loaded after:
+   1. style.css
+   2. ordinary-astonishment.css
+
+   These rules affect only classes used by this article.
+   ========================================================== */
+
+
+/* ---------- Hybrid series label ---------- */
+
+.ordinary-astonishment-article .oa-dual-series {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 0.65rem;
+    margin-bottom: 22px;
+}
+
+.ordinary-astonishment-article .oa-dual-series .article-series {
+    margin-bottom: 0;
+}
+
+.ordinary-astonishment-article .oa-series-separator {
+    color: var(--gold);
+    font-size: 0.9rem;
+}
+
+
+/* ---------- Optional wolf-howl recording ---------- */
+
+.ordinary-astonishment-article .oa-audio {
+    margin: 2.6rem 0 3rem;
+    padding: 1.5rem 1.65rem;
+    border-top: 1px solid rgba(201, 151, 52, 0.55);
+    border-bottom: 1px solid rgba(201, 151, 52, 0.55);
+    background: rgba(201, 151, 52, 0.06);
+}
+
+.ordinary-astonishment-article .oa-audio-kicker {
+    margin: 0 0 0.35rem;
+    color: var(--gold);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+}
+
+.ordinary-astonishment-article .oa-audio h2 {
+    margin: 0 0 0.55rem;
+    font-size: 1.45rem;
+}
+
+.ordinary-astonishment-article .oa-audio-copy > p:last-child {
+    margin-bottom: 1.15rem;
+    color: #5f5a53;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.55;
+}
+
+.ordinary-astonishment-article .oa-audio audio {
+    display: block;
+    width: 100%;
+    margin: 0 0 0.8rem;
+}
+
+.ordinary-astonishment-article .oa-audio-source {
+    display: inline-block;
+    color: #252525;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold);
+}
+
+.ordinary-astonishment-article .oa-audio-source:hover,
+.ordinary-astonishment-article .oa-audio-source:focus-visible {
+    color: var(--gold);
+}
+
+
+/* ---------- Deliberately weighted standalone line ---------- */
+
+.ordinary-astonishment-article .oa-weighted-line {
+    margin: 2.6rem 0 !important;
+    color: #171717;
+    font-size: clamp(1.28rem, 2.1vw, 1.55rem) !important;
+    line-height: 1.6 !important;
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 600px) {
+    .ordinary-astonishment-article .oa-audio {
+        margin-left: -0.25rem;
+        margin-right: -0.25rem;
+        padding: 1.25rem;
+    }
+
+    .ordinary-astonishment-article .oa-dual-series {
+        gap: 0.45rem;
+    }
+}

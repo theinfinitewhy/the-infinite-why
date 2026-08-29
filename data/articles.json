@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-08-28",
+  "articles": [
+    {
+      "id": "proof-hope-afi-women",
+      "title": "The women who decided the forest was theirs to defend",
+      "slug": "the-women-who-decided-the-forest-was-theirs-to-defend",
+      "series": "proof-of-hope",
+      "seriesLabel": "Proof of Hope",
+      "url": "articles/proof-of-hope/the-women-who-decided-the-forest-was-theirs-to-defend.html",
+      "image": "images/articles/proof-of-hope/the-women-who-decided-the-forest-was-theirs-to-defend/afi-cross-river-gorilla.jpg",
+      "imageAlt": "Nyango, a female Cross River gorilla, seated among green foliage.",
+      "description": "Around Nigeria's Afi Mountain Wildlife Sanctuary, women are changing who gets to be a conservationist.",
+      "topics": [
+        "Animals",
+        "Conservation",
+        "Environment",
+        "People"
+      ],
+      "published": "2026-08-24",
+      "featured": false,
+      "homeOrder": 1,
+      "status": "published"
+    },
+    {
+      "id": "proof-hope-exam",
+      "title": "The exam designed by the students who needed it",
+      "slug": "the-exam-designed-by-the-students-who-needed-it",
+      "series": "proof-of-hope",
+      "seriesLabel": "Proof of Hope",
+      "url": "articles/proof-of-hope/the-exam-designed-by-the-students-who-needed-it.html",
+      "image": "images/articles/proof-of-hope/the-exam-designed-by-the-students-who-needed-it/the-right-to-education-refugees.jpg",
+      "imageAlt": "Syrian refugee students attending school in Lebanon.",
+      "description": "How a question raised by refugee teenagers in a Beirut camp became a qualification designed for interrupted lives.",
+      "topics": [
+        "Education",
+        "Human Rights",
+        "People"
+      ],
+      "published": "2026-08-12",
+      "featured": false,
+      "homeOrder": 2,
+      "status": "published"
+    },
+    {
+      "id": "proof-hope-riverbed",
+      "title": "The girl on the riverbed",
+      "slug": "the-girl-on-the-riverbed",
+      "series": "proof-of-hope",
+      "seriesLabel": "Proof of Hope",
+      "url": "articles/proof-of-hope/the-girl-on-the-riverbed.html",
+      "image": "images/articles/proof-of-hope/the-girl-on-the-riverbed/maggie-tope-kopila-family.jpg",
+      "imageAlt": "Maggie Doyne and Tope Bahadur Malla surrounded by children from the Kopila Valley community in Nepal.",
+      "description": "How one teenager's answer to an impossible question grew into a home, a school, and a community that now cares for its own.",
+      "topics": [
+        "Education",
+        "People"
+      ],
+      "published": "2026-08-09",
+      "featured": false,
+      "homeOrder": 3,
+      "status": "published"
+    },
+    {
+      "id": "proof-hope-villages",
+      "title": "The villages that changed the conversation",
+      "slug": "villages-that-changed-the-conversation",
+      "series": "proof-of-hope",
+      "seriesLabel": "Proof of Hope",
+      "url": "articles/proof-of-hope/villages-that-changed-the-conversation.html",
+      "image": "images/articles/proof-of-hope/villages-that-changed-the-conversation/village-gathering.jpg",
+      "imageAlt": "Community members gathered beneath trees during a Tostan programme in Senegal.",
+      "description": "How listening instead of arriving with answers helped turn conversations in Senegal into a movement for community-led change.",
+      "topics": [
+        "Culture",
+        "Human Rights",
+        "People",
+        "Society"
+      ],
+      "published": "2026-08-06",
+      "featured": false,
+      "homeOrder": 4,
+      "status": "published"
+    },
+    {
+      "id": "oa-howl",
+      "title": "The Distance a Howl Can Travel",
+      "slug": "the-distance-a-howl-can-travel",
+      "series": "ordinary-astonishment",
+      "seriesLabel": "Proof of Hope · Ordinary Astonishment",
+      "url": "articles/ordinary-astonishment/the-distance-a-howl-can-travel.html",
+      "image": "images/articles/ordinary-astonishment/the-distance-a-howl-can-travel/howling-wolf-blacktail-deer-plateau.jpg",
+      "imageAlt": "A grey wolf standing in snow with its head raised in a howl.",
+      "description": "What we hear, what disappears beyond our attention, and the long work of keeping other species in the world.",
+      "topics": [
+        "Animals",
+        "Conservation",
+        "Environment",
+        "Science"
+      ],
+      "published": "2026-08-28",
+      "featured": true,
+      "homeOrder": 1,
+      "status": "published"
+    },
+    {
+      "id": "oa-brain",
+      "title": "The World Your Brain Gives You",
+      "slug": "the-world-your-brain-gives-you",
+      "series": "ordinary-astonishment",
+      "seriesLabel": "Ordinary Astonishment",
+      "url": "articles/ordinary-astonishment/the-world-your-brain-gives-you.html",
+      "image": "images/articles/ordinary-astonishment/the-world-your-brain-gives-you/the-world-your-brain-gives-you.png",
+      "imageAlt": "An enclosed room transformed by an image of the sea projected across a wall.",
+      "description": "What becomes visible when we stop assuming there is only one way to know a world.",
+      "topics": [
+        "Animals",
+        "Culture",
+        "Neuroscience",
+        "Perception",
+        "Science"
+      ],
+      "published": null,
+      "featured": false,
+      "homeOrder": 2,
+      "status": "published"
+    },
+    {
+      "id": "oa-noticing",
+      "title": "The Moment You Stop Noticing",
+      "slug": "the-moment-you-stopped-noticing",
+      "series": "ordinary-astonishment",
+      "seriesLabel": "Ordinary Astonishment",
+      "url": "articles/ordinary-astonishment/the-moment-you-stopped-noticing.html",
+      "image": "images/articles/ordinary-astonishment/the-moment-you-stopped-noticing/the-moment-you-stopped-noticing.png",
+      "imageAlt": "A modern apartment filled with shallow water and fish while a seated person continues with an ordinary day.",
+      "description": "What happens when the mind learns to tune out the world around it, from the hum of a refrigerator to suffering, kindness and the things familiarity teaches us not to see.",
+      "topics": [
+        "Psychology",
+        "Perception",
+        "Society"
+      ],
+      "published": null,
+      "featured": false,
+      "homeOrder": 3,
+      "status": "published"
+    },
+    {
+      "id": "oa-door",
+      "title": "The Door You Thought You Knew",
+      "slug": "the-door-you-thought-you-knew",
+      "series": "ordinary-astonishment",
+      "seriesLabel": "Ordinary Astonishment",
+      "url": "articles/ordinary-astonishment/the-door-you-thought-you-knew.html",
+      "image": "images/articles/ordinary-astonishment/the-door-you-thought-you-knew/door-you-thought-you-knew.png",
+      "imageAlt": "An open door standing before a wide landscape and sky.",
+      "description": "On déjà vu, jamais vu, and the curious ways familiarity shapes what we think we know.",
+      "topics": [
+        "Psychology",
+        "Perception",
+        "Science"
+      ],
+      "published": null,
+      "featured": false,
+      "homeOrder": 4,
+      "status": "published"
+    }
+  ]
+}

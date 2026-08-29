@@ -1,0 +1,35 @@
+/* Series archive pages generated from data/articles.json */
+
+.series-archive-header {
+    padding: 72px 0 46px;
+    background: var(--paper);
+    border-bottom: 1px solid var(--border-light);
+}
+
+.series-archive-header h1 {
+    max-width: 850px;
+    margin-bottom: 18px;
+}
+
+.series-archive-header p:not(.section-label) {
+    max-width: 720px;
+    color: var(--text-muted);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.08rem;
+}
+
+.series-archive-content {
+    padding: 64px 0 96px;
+}
+
+.series-archive-content .story-grid {
+    row-gap: 54px;
+}
+
+.series-back-link {
+    display: inline-block;
+    margin-top: 34px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--gold);
+    font-weight: 700;
+}

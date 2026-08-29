@@ -1,0 +1,335 @@
+/* ==========================================================
+ORDINARY ASTONISHMENT ARTICLE
+This stylesheet is intentionally scoped to:
+body.ordinary-astonishment-article
+========================================================== */
+
+/* ---------- Hero image ---------- */
+
+.ordinary-astonishment-article .oa-door-hero img,
+.ordinary-astonishment-article .oa-noticing-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* ---------- Opening word experiment ---------- */
+
+.ordinary-astonishment-article .oa-word-experiment {
+    margin: 0 0 3.25rem;
+    padding: 2.4rem 0 2.6rem;
+    border-top: 1px solid rgba(201, 151, 52, 0.5);
+    border-bottom: 1px solid rgba(201, 151, 52, 0.5);
+}
+
+.ordinary-astonishment-article .oa-word-experiment p {
+    max-width: none;
+}
+
+.ordinary-astonishment-article .oa-door-word {
+    margin: 0.45rem 0 1rem;
+    color: var(--gold);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    line-height: 1;
+}
+
+.ordinary-astonishment-article .oa-instruction {
+    margin-top: 1.8rem;
+    font-style: italic;
+}
+
+.ordinary-astonishment-article .oa-repetition {
+    margin-top: 1.7rem;
+    color: #5f5a53;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.12rem;
+    line-height: 1.9;
+    letter-spacing: 0.025em;
+}
+
+/* ---------- Closing echo ---------- */
+
+.ordinary-astonishment-article .oa-closing-door,
+.ordinary-astonishment-article .oa-noticing-closing {
+    margin-top: 4rem;
+    padding-top: 2.5rem;
+    border-top: 1px solid var(--gold);
+}
+
+.ordinary-astonishment-article .oa-closing-door > h2,
+.ordinary-astonishment-article .oa-noticing-closing > h2 {
+    margin-top: 0;
+}
+
+.ordinary-astonishment-article .oa-questions {
+    margin: 2.25rem 0;
+    padding: 1.4rem 1.6rem;
+    border-left: 3px solid var(--gold);
+    background: rgba(201, 151, 52, 0.07);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.08em;
+}
+
+.ordinary-astonishment-article .oa-final-line {
+    margin-top: 2.75rem;
+    color: #171717;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+    line-height: 1.55;
+}
+
+/* ---------- The Sunday Why ---------- */
+
+.ordinary-astonishment-article .oa-newsletter {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+    gap: 3.5rem;
+    align-items: center;
+    margin: 4.5rem 0 3.5rem;
+    padding: 2.75rem 3rem;
+    background: #111111;
+    color: var(--warm-white);
+}
+
+.ordinary-astonishment-article .oa-newsletter-kicker {
+    margin: 0 0 0.7rem;
+    color: var(--gold);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.ordinary-astonishment-article .oa-newsletter h2 {
+    margin: 0 0 0.8rem;
+    color: var(--warm-white);
+}
+
+.ordinary-astonishment-article .oa-newsletter-copy > p:last-child {
+    margin-bottom: 0;
+    color: #d9d4cc;
+}
+
+.ordinary-astonishment-article .oa-newsletter-embed-wrap {
+    width: min(100%, 500px);
+    justify-self: end;
+    overflow: hidden;
+}
+
+.ordinary-astonishment-article .oa-newsletter-embed {
+    display: block;
+    width: 100%;
+    height: 320px;
+    border: 0;
+    background: transparent;
+}
+
+/* ---------- Sources and further reading ---------- */
+
+.ordinary-astonishment-article .oa-sources {
+    margin: 0 0 5.5rem;
+    padding-top: 0.75rem;
+}
+
+.ordinary-astonishment-article .oa-sources h2 {
+    margin: 0 0 1.4rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.65rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #181818;
+}
+
+.ordinary-astonishment-article .oa-sources ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ordinary-astonishment-article .oa-sources li {
+    position: relative;
+    margin: 0;
+    padding: 1rem 0 1rem 1.5rem;
+    border-top: 1px solid #e3ddd3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: #4c4741;
+}
+
+.ordinary-astonishment-article .oa-sources li:last-child {
+    border-bottom: 1px solid #e3ddd3;
+}
+
+.ordinary-astonishment-article .oa-sources li::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 1.55rem;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--gold);
+}
+
+.ordinary-astonishment-article .oa-sources a {
+    color: #252525;
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold);
+}
+
+.ordinary-astonishment-article .oa-sources a:hover,
+.ordinary-astonishment-article .oa-sources a:focus-visible {
+    color: var(--gold);
+}
+
+.ordinary-astonishment-article .oa-source-description {
+    margin: 0 0 0.4rem;
+    color: #4c4741;
+}
+
+.ordinary-astonishment-article .oa-sources cite {
+    display: block;
+    margin: 0 0 0.45rem;
+    color: #252525;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+}
+
+.ordinary-astonishment-article .oa-source-link {
+    display: inline-block;
+    font-weight: 700;
+}
+
+/* ---------- Tablet ---------- */
+
+@media (max-width: 800px) {
+    .ordinary-astonishment-article .oa-newsletter {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2.25rem;
+    }
+
+    .ordinary-astonishment-article .oa-newsletter-embed-wrap {
+        width: 100%;
+        justify-self: stretch;
+    }
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 600px) {
+    .ordinary-astonishment-article .oa-word-experiment {
+        padding: 1.8rem 0 2rem;
+    }
+
+    .ordinary-astonishment-article .oa-newsletter {
+        margin-left: -1rem;
+        margin-right: -1rem;
+        padding: 2rem 1.25rem;
+    }
+
+    .ordinary-astonishment-article .oa-newsletter-embed {
+        height: 340px;
+    }
+
+    .ordinary-astonishment-article .oa-sources {
+        margin-bottom: 3.75rem;
+    }
+
+    .ordinary-astonishment-article .oa-sources h2 {
+        font-size: 1.45rem;
+    }
+}
+
+/* ---------- The Sunday Why ---------- */
+
+.ordinary-astonishment-article .oa-newsletter {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(360px, 1.1fr);
+    gap: 2.25rem;
+    align-items: center;
+    margin: 4.5rem 0 3.5rem;
+    padding: 2.75rem 3rem;
+    background: #111111;
+    color: var(--warm-white);
+}
+
+.ordinary-astonishment-article .oa-newsletter-kicker {
+    margin: 0 0 0.7rem;
+    color: var(--gold);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.ordinary-astonishment-article .oa-newsletter h2 {
+    margin: 0 0 0.8rem;
+    color: var(--warm-white);
+}
+
+.ordinary-astonishment-article .oa-newsletter-copy > p:last-child {
+    margin-bottom: 0;
+    color: #d9d4cc;
+}
+
+/* Substack embed */
+
+.ordinary-astonishment-article .oa-newsletter-embed-wrap {
+    width: 100%;
+    max-width: 500px;
+    justify-self: end;
+    overflow: hidden;
+}
+
+.ordinary-astonishment-article .oa-newsletter-embed {
+    display: block;
+    width: 100%;
+    height: 390px;
+    border: 0;
+    background: transparent;
+}
+
+/* ---------- Tablet ---------- */
+
+@media (max-width: 800px) {
+    .ordinary-astonishment-article .oa-newsletter {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2.25rem;
+    }
+
+    .ordinary-astonishment-article .oa-newsletter-embed-wrap {
+        width: 100%;
+        max-width: 500px;
+        justify-self: start;
+    }
+
+    .ordinary-astonishment-article .oa-newsletter-embed {
+        height: 390px;
+    }
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 600px) {
+    .ordinary-astonishment-article .oa-newsletter {
+        margin-left: -1rem;
+        margin-right: -1rem;
+        padding: 2rem 1.25rem;
+    }
+
+    .ordinary-astonishment-article .oa-newsletter-embed-wrap {
+        max-width: 100%;
+        justify-self: stretch;
+    }
+
+    .ordinary-astonishment-article .oa-newsletter-embed {
+        width: 100%;
+        height: 410px;
+    }
+}

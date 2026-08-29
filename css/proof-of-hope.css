@@ -1,0 +1,184 @@
+/* Proof of Hope section-specific additions.
+   Loaded after style.css so these rules do not affect Ordinary Astonishment. */
+
+.proof-of-hope-article .image-credit {
+    color: #6a655e;
+}
+
+.proof-of-hope-article .story-links {
+    margin: 30px 0 28px;
+    padding: 26px 28px;
+    border-top: 1px solid #c99632;
+    border-bottom: 1px solid #d9d1c3;
+    background: #f5f0e6;
+}
+
+.proof-of-hope-article .story-links-kicker {
+    margin: 0 0 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    color: #b77b16;
+}
+
+.proof-of-hope-article .story-links h2 {
+    margin: 0 0 14px !important;
+    font-size: 1.45rem !important;
+}
+
+.proof-of-hope-article .story-links p:not(.story-links-kicker) {
+    margin-bottom: 18px;
+    font-size: 0.96rem;
+    line-height: 1.58;
+}
+
+.proof-of-hope-article .story-link-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.proof-of-hope-article .story-link-button {
+    display: inline-block;
+    padding: 10px 14px;
+    border: 1px solid #1e1e1e;
+    background: #1e1e1e;
+    color: #fffdf8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.proof-of-hope-article .story-link-button:hover,
+.proof-of-hope-article .story-link-button:focus-visible {
+    background: #8c6420;
+    border-color: #8c6420;
+}
+
+.proof-of-hope-article .story-link-button-secondary {
+    background: transparent;
+    color: #1e1e1e;
+}
+
+.proof-of-hope-article .story-link-button-secondary:hover,
+.proof-of-hope-article .story-link-button-secondary:focus-visible {
+    color: #fffdf8;
+}
+
+
+@media (max-width: 700px) {
+    .proof-of-hope-article .story-links {
+        padding: 22px;
+    }
+
+    .proof-of-hope-article .story-link-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .proof-of-hope-article .story-link-button {
+        text-align: center;
+    }
+}
+
+/* ==========================================================
+   PROOF OF HOPE — CONSISTENT ARTICLE TYPOGRAPHY
+   Keep the series brisk, but stop normal prose changing size
+   between ordinary paragraphs, reflection boxes and takeaways.
+   ========================================================== */
+
+.proof-of-hope-article .article-body > p,
+.proof-of-hope-article .article-opening,
+.proof-of-hope-article .article-reflection p,
+.proof-of-hope-article .article-takeaway p {
+    font-size: 1rem !important;
+    line-height: 1.62 !important;
+}
+
+.proof-of-hope-article .article-opening {
+    margin-bottom: 1em !important;
+}
+
+.proof-of-hope-article .article-emphasis {
+    font-size: 1rem !important;
+    line-height: 1.62 !important;
+}
+
+/* ---------- Sources and further reading ---------- */
+
+.proof-of-hope-article .article-references {
+    margin: 34px 0 0;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-light);
+}
+
+.proof-of-hope-article .article-references h2 {
+    margin: 0 0 18px !important;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.45rem !important;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #181818;
+}
+
+.proof-of-hope-article .article-references ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.proof-of-hope-article .article-references li {
+    position: relative;
+    margin: 0;
+    padding: 1rem 0 1rem 1.5rem;
+    border-top: 1px solid #e3ddd3;
+    color: #4c4741;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.88rem;
+    line-height: 1.5;
+}
+
+.proof-of-hope-article .article-references li:last-child {
+    border-bottom: 1px solid #e3ddd3;
+}
+
+.proof-of-hope-article .article-references li::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 1.55rem;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--gold);
+}
+
+.proof-of-hope-article .article-references li a {
+    color: #252525;
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold);
+}
+
+.proof-of-hope-article .article-references li a:hover,
+.proof-of-hope-article .article-references li a:focus-visible {
+    color: var(--gold);
+}
+
+.proof-of-hope-article .article-references li span {
+    display: block;
+    margin-top: 0.35rem;
+    color: #5e5952;
+}
+
+.proof-of-hope-article .article-credits {
+    margin-top: 28px !important;
+}
+
+@media (max-width: 700px) {
+    .proof-of-hope-article .article-references h2 {
+        font-size: 1.35rem !important;
+    }
+}
+
