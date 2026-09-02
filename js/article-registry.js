@@ -1,6 +1,21 @@
 (() => {
     const REGISTRY_URL = 'data/articles.json';
 
+    const EXTRA_ARTICLES = [{
+        id: 'when-a-line-becomes-a-landscape',
+        title: 'When a Line Becomes a Landscape',
+        description: 'How decisions drawn on maps become railways, neighbourhoods, walls and borders, and continue shaping lives long after the people who drew them are gone.',
+        series: 'ordinary-astonishment',
+        seriesLabel: 'Ordinary Astonishment',
+        topics: ['History', 'Society', 'Human Rights'],
+        url: 'articles/ordinary-astonishment/when-a-line-becomes-a-landscape.html',
+        image: 'images/articles/ordinary-astonishment/when-a-line-becomes-a-landscape/when-a-line-becomes-a-landscape.jpg',
+        imageAlt: 'A layered, geographically impossible landscape in which railway tracks, cities, mountains, walls and roads overlap and dissolve into one another.',
+        status: 'published',
+        published: '2026-09-02',
+        featured: true
+    }];
+
     const escapeHtml = (value = '') => String(value)
         .replaceAll('&', '&amp;')
         .replaceAll('<', '&lt;')
@@ -154,7 +169,12 @@
             const response = await fetch(REGISTRY_URL, { cache: 'no-store' });
             if (!response.ok) throw new Error(`Registry request failed: ${response.status}`);
             const data = await response.json();
-            const articles = data.articles || [];
+            const registryArticles = data.articles || [];
+            const extraIds = new Set(EXTRA_ARTICLES.map((article) => article.id));
+            const articles = registryArticles
+                .filter((article) => !extraIds.has(article.id))
+                .map((article) => ({ ...article, featured: false }))
+                .concat(EXTRA_ARTICLES);
             const featured = publishedArticles(articles).find((article) => article.featured)
                 || sortNewestFirst(publishedArticles(articles))[0];
 
