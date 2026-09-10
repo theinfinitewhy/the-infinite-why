@@ -1,7 +1,8 @@
 (() => {
     const REGISTRY_URL = 'data/articles.json';
 
-    const EXTRA_ARTICLES = [{
+    const EXTRA_ARTICLES = [
+    {
         id: 'when-a-line-becomes-a-landscape',
         title: 'When a Line Becomes a Landscape',
         description: 'How decisions drawn on maps become railways, neighbourhoods, walls and borders, and continue shaping lives long after the people who drew them are gone.',
@@ -14,7 +15,22 @@
         status: 'published',
         published: '2026-09-02',
         featured: true
-    }];
+    },
+    {
+        id: 'the-part-you-thought-was-fixed',
+        title: 'The Part You Thought Was Fixed',
+        description: 'What paper centrifuges, rubble, wire toys and a school textbook reveal about ingenuity, agency and the parts of a problem we mistake for fixed.',
+        series: 'proof-of-hope',
+        seriesLabel: 'Proof of Hope',
+        topics: ['Innovation', 'Education', 'Resilience'],
+        url: 'articles/proof-of-hope/the-part-you-thought-was-fixed.html',
+        image: 'images/articles/proof-of-hope/the-part-you-thought-was-fixed/the-part-you-thought-was-fixed.png',
+        imageAlt: 'A paper-and-string whirligig on a pale work surface, with a handmade push-wire cyclist, a technology textbook and a fragment of pale concrete rubble behind it.',
+        status: 'published',
+        published: '2026-09-06',
+        featured: false
+    }
+    ];
 
     const escapeHtml = (value = '') => String(value)
         .replaceAll('&', '&amp;')
