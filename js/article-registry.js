@@ -3,6 +3,20 @@
 
     const EXTRA_ARTICLES = [
     {
+        id: 'the-woman-who-made-the-government-listen',
+        title: 'The woman who made the government listen',
+        description: 'Promise Mabilo went to eMalahleni looking for opportunity. What she learned there helped turn community organising into a landmark South African clean-air judgment.',
+        series: 'proof-of-hope',
+        seriesLabel: 'Proof of Hope',
+        topics: ['Environment', 'Human Rights', 'People'],
+        url: 'articles/proof-of-hope/the-woman-who-made-the-government-listen.html',
+        image: 'images/articles/proof-of-hope/the-woman-who-made-the-government-listen/promise-mabilo-groundup.jpg',
+        imageAlt: 'Environmental justice activist Promise Mabilo standing in a community food garden in eMpumelelweni, Mpumalanga.',
+        status: 'published',
+        published: '2026-09-11',
+        featured: true
+    },
+    {
         id: 'when-a-line-becomes-a-landscape',
         title: 'When a Line Becomes a Landscape',
         description: 'How decisions drawn on maps become railways, neighbourhoods, walls and borders, and continue shaping lives long after the people who drew them are gone.',
@@ -14,7 +28,7 @@
         imageAlt: 'A layered, geographically impossible landscape in which railway tracks, cities, mountains, walls and roads overlap and dissolve into one another.',
         status: 'published',
         published: '2026-09-02',
-        featured: true
+        featured: false
     },
     {
         id: 'the-part-you-thought-was-fixed',
