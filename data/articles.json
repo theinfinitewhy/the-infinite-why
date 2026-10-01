@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-28",
+  "updated": "2026-10-01",
   "articles": [
     {
       "id": "proof-hope-afi-women",
@@ -164,6 +164,46 @@
       "published": null,
       "featured": false,
       "homeOrder": 4,
+      "status": "published"
+    },
+    {
+      "id": "proof-hope-light-turned-outward",
+      "title": "The Light Turned Outward",
+      "slug": "the-light-turned-outward",
+      "series": "proof-of-hope",
+      "seriesLabel": "Proof of Hope",
+      "url": "articles/proof-of-hope/the-light-turned-outward.html",
+      "image": "images/articles/proof-of-hope/the-light-turned-outward/the-light-turned-outward.png",
+      "imageAlt": "A blurred celebrity-media foreground gives way to a sharply focused conversation beyond it, shifting attention away from the spectacle.",
+      "description": "Cynicism about celebrity advocacy asks the wrong question. The better one is what happens once the cameras leave.",
+      "topics": [
+        "People",
+        "Human Rights",
+        "Society"
+      ],
+      "published": "2026-10-01",
+      "featured": false,
+      "homeOrder": 1,
+      "status": "published"
+    },
+    {
+      "id": "footnotes-where-spotlight-went",
+      "title": "Where the Spotlight Went",
+      "slug": "where-the-spotlight-went",
+      "series": "footnotes",
+      "seriesLabel": "The Footnotes",
+      "url": "articles/footnotes/where-the-spotlight-went.html",
+      "image": "images/articles/footnotes/where-the-spotlight-went/where-the-spotlight-went.png",
+      "imageAlt": "A laptop displaying The Infinite Why illuminates source pages from humanitarian, conservation and public-advocacy organisations on a dark research table.",
+      "description": "What happened after the photograph? A sourced record of sustained celebrity humanitarian, ecological and public advocacy.",
+      "topics": [
+        "People",
+        "Human Rights",
+        "Conservation"
+      ],
+      "published": "2026-10-01",
+      "featured": false,
+      "homeOrder": 1,
       "status": "published"
     }
   ]

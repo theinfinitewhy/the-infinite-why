@@ -1,0 +1,70 @@
+/* The Footnotes — evidence-led companion pages */
+.footnotes-article .article-standfirst {
+    max-width: 760px;
+}
+
+.footnotes-article .footnotes-principle {
+    margin: 2rem 0 2.5rem;
+    padding: 1rem 1.2rem;
+    border-left: 3px solid var(--gold);
+    background: #f5f0e6;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+}
+
+.footnotes-entry {
+    margin: 3.1rem 0 0;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-light);
+}
+
+.footnotes-entry h2,
+.footnotes-reading h2 {
+    margin: 0 0 1.25rem !important;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.65rem !important;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #181818;
+}
+
+.footnotes-entry h2 span {
+    display: block;
+    margin-top: 0.35rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: #8c6420;
+}
+
+.footnotes-entry p,
+.footnotes-reading p {
+    font-size: 1rem !important;
+    line-height: 1.62 !important;
+}
+
+.footnotes-question {
+    margin-top: 1.3rem !important;
+    padding: 1rem 1.15rem;
+    background: #f7f4ed;
+    border-left: 2px solid #d5c19a;
+}
+
+.footnotes-reading {
+    margin: 3.5rem 0 0;
+    padding: 2rem 0 0;
+    border-top: 2px solid #c99632;
+}
+
+@media (max-width: 700px) {
+    .footnotes-entry {
+        margin-top: 2.5rem;
+    }
+
+    .footnotes-entry h2,
+    .footnotes-reading h2 {
+        font-size: 1.45rem !important;
+    }
+}

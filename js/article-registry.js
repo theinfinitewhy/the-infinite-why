@@ -1,5 +1,6 @@
 (() => {
     const REGISTRY_URL = 'data/articles.json';
+    const HOME_FEATURED_ID = 'proof-hope-light-turned-outward';
 
     const EXTRA_ARTICLES = [
     {
@@ -14,7 +15,7 @@
         imageAlt: 'Environmental justice activist Promise Mabilo standing in a community food garden in eMpumelelweni, Mpumalanga.',
         status: 'published',
         published: '2026-09-11',
-        featured: true
+        featured: false
     },
     {
         id: 'when-a-line-becomes-a-landscape',
@@ -205,7 +206,8 @@
                 .filter((article) => !extraIds.has(article.id))
                 .map((article) => ({ ...article, featured: false }))
                 .concat(EXTRA_ARTICLES);
-            const featured = publishedArticles(articles).find((article) => article.featured)
+            const featured = publishedArticles(articles).find((article) => article.id === HOME_FEATURED_ID)
+                || publishedArticles(articles).find((article) => article.featured)
                 || sortNewestFirst(publishedArticles(articles))[0];
 
             renderFeatured(featured);
