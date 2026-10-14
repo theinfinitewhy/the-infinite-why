@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-01",
+  "updated": "2026-10-14",
   "articles": [
     {
       "id": "proof-hope-afi-women",
@@ -204,6 +204,25 @@
       "published": "2026-10-01",
       "featured": false,
       "homeOrder": 1,
+      "status": "published"
+    },
+    {
+      "id": "proof-hope-uhackatik",
+      "title": "The Man Who Went Looking for a Campsite and Found 390 Million Years",
+      "slug": "the-man-who-went-looking-for-a-campsite-and-found-390-million-years",
+      "series": "proof-of-hope",
+      "seriesLabel": "Proof of Hope",
+      "url": "articles/proof-of-hope/the-man-who-went-looking-for-a-campsite-and-found-390-million-years.html",
+      "image": "images/articles/proof-of-hope/the-man-who-went-looking-for-a-campsite-and-found-390-million-years/newcraterquebec_oli_20251012.jpg",
+      "imageAlt": "Landsat satellite image of Lake Marsal and the Uhackatik impact structure in Quebec.",
+      "description": "A camping search led amateur astronomer Joël Lapointe to a possible 390-million-year-old impact crater in Quebec. The discovery began with a circle on a map.",
+      "topics": [
+        "Science",
+        "History"
+      ],
+      "published": "2026-10-14",
+      "featured": false,
+      "homeOrder": 999,
       "status": "published"
     }
   ]
